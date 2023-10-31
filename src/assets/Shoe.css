@@ -1,0 +1,51 @@
+.shoe {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center;
+    height: calc(100vh - 72px);
+
+}
+
+.shoedesc {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.shoe h1{
+    font-weight: 800;
+    line-height: 102px;
+    font-size: 108px;
+}
+
+.shoe p {
+    font-weight: 600;
+    color: var(--gray);
+    max-width: 400px;
+}
+
+.shoebttn {
+    display: flex;
+    gap: 40px;
+}
+
+.shoebttn button {
+    font-size: 24px;
+}
+
+.secondarybttn {
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid var(--gray);
+}
+
+.shoeinfo p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.brandicons {
+    display: flex;
+    gap: 16px;
+}
